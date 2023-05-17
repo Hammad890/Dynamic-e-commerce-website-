@@ -152,6 +152,7 @@ nav li:hover {
     justify-content: center;
     margin-left: 2em;
     align-items: center;
+    max-width: 100%;
 }
 .product h2{
     text-align: center;
@@ -276,4 +277,10 @@ button {
      border: none;
      border-radius: 5px;
      margin-top: 2em;
+}
+@media screen and (max-width:600px) {
+    head, body, nav, footer {
+        padding: 10px;
+        display: flex;
+    }
 }
