@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let cart = [];
 let isLoggedIn = false;
 function addToCart (name,price,image){
@@ -175,4 +174,4 @@ for(let product of fProducts){
     productDiv.appendChild(mainDiv)
     feature.appendChild(productDiv)
 }
->>>>>>> 8daf94ea2e2746de3f131abebda5d4bb3b204165
+
