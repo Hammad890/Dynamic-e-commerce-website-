@@ -41,7 +41,7 @@ nav li a {
 #feature {
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap; 
+    flex-wrap: wrap; 
 }
 
 #Products {
